@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="../CSS/index.css" />
+    <link rel="stylesheet" href="../CSS/create.css" />
 
     <title>Login</title>
   </head>
@@ -31,8 +31,16 @@
             id="pass"
             placeholder="Enter your Password"
           />
+          <label for="confirm" class="field-label">Confirm Password</label>
+          <input
+            type="password"
+            name="pass"
+            class="input-field"
+            id="pass"
+            placeholder="Enter your Password again"
+          />
           <div class="btn">
-            <button type="button" class="log-in">Log In</button>
+            <button type="button" class="log-in">Create</button>
           </div>
           <div class="icons">
             <img src="../IMAGES/ICONS/facebook-f.svg" class="icon" />
@@ -40,8 +48,7 @@
             <img src="../IMAGES/ICONS/apple.svg" class="icon" />
           </div>
           <p class="text">
-            Don't have an account?
-            <a href="create.html" class="new">Create Account</a>
+            Already have an account? <a href="index.html" class="new">Log In</a>
           </p>
         </form>
       </div>
